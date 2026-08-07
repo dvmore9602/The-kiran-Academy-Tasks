@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+<h2>Student Registration Form</h2>
+
+<form action="login.html">
+
+    <label> Student ID:</label><br>
+    <input type="text" name="student_id" required><br><br>
+
+    <label> Full Name:</label><br>
+    <input type="text" name="fullname" required><br><br>
+
+    <label> Father's Name:</label><br>
+    <input type="text" name="fathername" required><br><br>
+
+    <label> Mother's Name:</label><br>
+    <input type="text" name="mothername" required><br><br>
+
+    <label> Date of Birth:</label><br>
+    <input type="date" name="dob" required><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <input type="radio" name="gender" value="Other"> Other
+    <br><br>
+
+    <label>Email ID:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label> Mobile Number:</label><br>
+    <input type="tel" name="mobile" required><br><br>
+
+    <label>Address:</label><br>
+    <textarea name="address" rows="3" cols="30"></textarea><br><br>
+
+    <label> City:</label><br>
+    <input type="text" name="city" required><br><br>
+
+    <label> State:</label><br>
+    <input type="text" name="state" required><br><br>
+
+    <label> PIN Code:</label><br>
+    <input type="number" name="pincode" required><br><br>
+
+    <label>Course:</label><br>
+    <select name="course">
+        <option>BCA</option>
+        <option>BSc</option>
+        <option>BCom</option>
+        <option>MCA</option>
+        <option>MBA</option>
+    </select><br><br>
+
+    <label> Password:</label><br>
+    <input type="password" name="password" required><br><br>
+
+    <label>Confirm Password:</label><br>
+    <input type="password" name="confirm_password" required><br><br>
+
+    <input type="submit" value="Register">
+    <input type="reset" value="Reset">
+
+</form>
+
+<br>
+
+<a href="login.html">Already Registered? Login Here</a>
+</body>
+</html>
